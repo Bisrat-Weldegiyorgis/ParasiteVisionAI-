@@ -1,0 +1,10 @@
+ParasiteVisionAI
+Overview
+AI system for detecting parasites in microscope images. Uses deep learning and explainable AI to classify species and provide diagnostic notes.
+
+Features
+Image preprocessing with OpenCV
+
+Parasite classification using CNNs (PyTorch/TensorFlow)
+
+Explainable outputs with Grad-CAM
