@@ -91,7 +91,7 @@
     "clinical_relevance": { "disease": "Malaria", "symptoms": ["Fever", "Chills", "Anemia"] }
   },
   {
-    "parasite_name": "Schistosoma species (mansoni, haematobium, japonicum)",
+    "parasite_name": "Schistosoma mansoni",
     "taxonomy": { "phylum": "Platyhelminthes", "class": "Trematoda" },
     "life_cycle": {
       "infective_stage": "Cercaria",
@@ -99,14 +99,14 @@
       "environmental_stage": "Miracidium in snail"
     },
     "morphology": {
-      "egg": "Oval with spine (lateral or terminal)",
+      "egg": "Oval with spine lateral",
       "adult": "Male shorter, female longer"
     },
-    "diagnostic_features": ["Eggs in stool/urine microscopy"],
+    "diagnostic_features": ["Eggs in stool microscopy"],
     "clinical_relevance": { "disease": "Schistosomiasis", "symptoms": ["Bloody stool/urine", "Hepatosplenomegaly"] }
   },
   {
-    "parasite_name": "Taenia species (saginata, solium)",
+    "parasite_name": "Taenia species saginata",
     "taxonomy": { "phylum": "Platyhelminthes", "class": "Cestoda" },
     "life_cycle": {
       "infective_stage": "Cysticercus (larva)",
@@ -118,6 +118,6 @@
       "adult": "Flat, segmented worm with scolex"
     },
     "diagnostic_features": ["Proglottids/eggs in stool microscopy"],
-    "clinical_relevance": { "disease": "Taeniasis / Cysticercosis", "symptoms": ["Abdominal discomfort", "Neurocysticercosis (T. solium)"] }
+    "clinical_relevance": { "disease": "Taeniasis", "symptoms": ["Abdominal discomfort", "Neurocysticercosis (T. solium)"] }
   }
 ]
