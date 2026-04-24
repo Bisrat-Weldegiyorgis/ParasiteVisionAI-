@@ -1,0 +1,123 @@
+[
+  {
+    "parasite_name": "Ascaris lumbricoides",
+    "taxonomy": { "phylum": "Nematoda", "class": "Secernentea" },
+    "life_cycle": {
+      "infective_stage": "Embryonated egg",
+      "human_host_stages": ["Larva in lungs", "Adult in intestine"],
+      "environmental_stage": "Egg in soil"
+    },
+    "morphology": {
+      "egg": "Oval, thick shell, mammillated surface",
+      "adult": "Large cylindrical worm, females longer than males"
+    },
+    "diagnostic_features": ["Eggs in stool microscopy", "Adult worms expelled"],
+    "clinical_relevance": { "disease": "Ascariasis", "symptoms": ["Abdominal pain", "Malnutrition", "Intestinal obstruction"] }
+  },
+  {
+    "parasite_name": "Trichuris trichiura",
+    "taxonomy": { "phylum": "Nematoda", "class": "Enoplea" },
+    "life_cycle": {
+      "infective_stage": "Embryonated egg",
+      "human_host_stages": ["Larva in intestine", "Adult in colon"],
+      "environmental_stage": "Egg in soil"
+    },
+    "morphology": {
+      "egg": "Barrel-shaped with bipolar plugs",
+      "adult": "Whip-like worm, thin anterior end"
+    },
+    "diagnostic_features": ["Eggs in stool microscopy"],
+    "clinical_relevance": { "disease": "Trichuriasis", "symptoms": ["Diarrhea", "Rectal prolapse", "Growth retardation"] }
+  },
+  {
+    "parasite_name": "Hookworms (Ancylostoma duodenale, Necator americanus)",
+    "taxonomy": { "phylum": "Nematoda", "class": "Secernentea" },
+    "life_cycle": {
+      "infective_stage": "Filariform larva",
+      "human_host_stages": ["Larva penetrates skin", "Adult in intestine"],
+      "environmental_stage": "Larva in soil"
+    },
+    "morphology": {
+      "egg": "Oval, thin shell",
+      "adult": "Small worm with buccal capsule and teeth/cutting plates"
+    },
+    "diagnostic_features": ["Eggs in stool microscopy"],
+    "clinical_relevance": { "disease": "Hookworm infection", "symptoms": ["Iron-deficiency anemia", "Fatigue", "Growth retardation"] }
+  },
+  {
+    "parasite_name": "Giardia lamblia",
+    "taxonomy": { "phylum": "Metamonada", "class": "Diplomonadida" },
+    "life_cycle": {
+      "infective_stage": "Cyst",
+      "human_host_stages": ["Trophozoite in intestine"],
+      "environmental_stage": "Cyst in water/food"
+    },
+    "morphology": {
+      "cyst": "Oval, 4 nuclei",
+      "trophozoite": "Pear-shaped, 2 nuclei, flagella"
+    },
+    "diagnostic_features": ["Cysts/trophozoites in stool microscopy"],
+    "clinical_relevance": { "disease": "Giardiasis", "symptoms": ["Diarrhea", "Abdominal cramps", "Weight loss"] }
+  },
+  {
+    "parasite_name": "Entamoeba histolytica",
+    "taxonomy": { "phylum": "Amoebozoa", "class": "Archamoebae" },
+    "life_cycle": {
+      "infective_stage": "Cyst",
+      "human_host_stages": ["Trophozoite in intestine"],
+      "environmental_stage": "Cyst in water/food"
+    },
+    "morphology": {
+      "cyst": "Round, 4 nuclei",
+      "trophozoite": "Single nucleus, ingested RBCs"
+    },
+    "diagnostic_features": ["Cysts/trophozoites in stool microscopy"],
+    "clinical_relevance": { "disease": "Amebiasis", "symptoms": ["Bloody diarrhea", "Liver abscess"] }
+  },
+  {
+    "parasite_name": "Plasmodium species (falciparum, vivax, malariae, ovale)",
+    "taxonomy": { "phylum": "Apicomplexa", "class": "Aconoidasida" },
+    "life_cycle": {
+      "infective_stage": "Sporozoite",
+      "human_host_stages": ["Liver schizogony", "Blood schizogony"],
+      "mosquito_stage": "Sporogony in Anopheles"
+    },
+    "morphology": {
+      "ring_stage": "Ring-shaped trophozoite in RBC",
+      "schizont": "Multiple merozoites",
+      "gametocyte": "Sexual forms"
+    },
+    "diagnostic_features": ["Blood smear microscopy"],
+    "clinical_relevance": { "disease": "Malaria", "symptoms": ["Fever", "Chills", "Anemia"] }
+  },
+  {
+    "parasite_name": "Schistosoma species (mansoni, haematobium, japonicum)",
+    "taxonomy": { "phylum": "Platyhelminthes", "class": "Trematoda" },
+    "life_cycle": {
+      "infective_stage": "Cercaria",
+      "human_host_stages": ["Adult worms in venous plexus"],
+      "environmental_stage": "Miracidium in snail"
+    },
+    "morphology": {
+      "egg": "Oval with spine (lateral or terminal)",
+      "adult": "Male shorter, female longer"
+    },
+    "diagnostic_features": ["Eggs in stool/urine microscopy"],
+    "clinical_relevance": { "disease": "Schistosomiasis", "symptoms": ["Bloody stool/urine", "Hepatosplenomegaly"] }
+  },
+  {
+    "parasite_name": "Taenia species (saginata, solium)",
+    "taxonomy": { "phylum": "Platyhelminthes", "class": "Cestoda" },
+    "life_cycle": {
+      "infective_stage": "Cysticercus (larva)",
+      "human_host_stages": ["Adult worm in intestine"],
+      "environmental_stage": "Egg in environment"
+    },
+    "morphology": {
+      "egg": "Round, thick shell",
+      "adult": "Flat, segmented worm with scolex"
+    },
+    "diagnostic_features": ["Proglottids/eggs in stool microscopy"],
+    "clinical_relevance": { "disease": "Taeniasis / Cysticercosis", "symptoms": ["Abdominal discomfort", "Neurocysticercosis (T. solium)"] }
+  }
+]
