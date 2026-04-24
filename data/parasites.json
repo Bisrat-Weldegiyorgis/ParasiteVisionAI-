@@ -12,14 +12,16 @@
       "adult": "Large cylindrical worm, females longer than males"
     },
     "diagnostic_features": ["Eggs in stool microscopy", "Adult worms expelled"],
-    "clinical_relevance": { "disease": "Ascariasis", "symptoms": ["Abdominal pain", "Malnutrition", "Intestinal obstruction"] }
+    "clinical_relevance": {
+      "disease": "Ascariasis",
+      "symptoms": ["Abdominal pain", "Malnutrition", "Intestinal obstruction"]
+    },
+    "image_metadata": {
+      "file_path": "images/Ascaris egg.jpg",
+      "magnification": "400x",
+      "stain": "None"
+    }
   },
-  "image_metadata": {
-    "file_path": "images/Ascaris egg.jpg",
-    "magnification": "400x",
-    "stain": "None"
-  },
-  
   {
     "parasite_name": "Trichuris trichiura",
     "taxonomy": { "phylum": "Nematoda", "class": "Enoplea" },
@@ -33,9 +35,16 @@
       "adult": "Whip-like worm, thin anterior end"
     },
     "diagnostic_features": ["Eggs in stool microscopy"],
-    "clinical_relevance": { "disease": "Trichuriasis", "symptoms": ["Diarrhea", "Rectal prolapse", "Growth retardation"] }
+    "clinical_relevance": {
+      "disease": "Trichuriasis",
+      "symptoms": ["Diarrhea", "Rectal prolapse", "Growth retardation"]
+    },
+    "image_metadata": {
+      "file_path": "images/Trichuris egg.jpg",
+      "magnification": "400x",
+      "stain": "None"
+    }
   },
-  
   {
     "parasite_name": "Hookworms (Ancylostoma duodenale, Necator americanus)",
     "taxonomy": { "phylum": "Nematoda", "class": "Secernentea" },
@@ -49,14 +58,16 @@
       "adult": "Small worm with buccal capsule and teeth/cutting plates"
     },
     "diagnostic_features": ["Eggs in stool microscopy"],
-    "clinical_relevance": { "disease": "Hookworm infection", "symptoms": ["Iron-deficiency anemia", "Fatigue", "Growth retardation"] }
+    "clinical_relevance": {
+      "disease": "Hookworm infection",
+      "symptoms": ["Iron-deficiency anemia", "Fatigue", "Growth retardation"]
+    },
+    "image_metadata": {
+      "file_path": "images/hookworm egg.jpg",
+      "magnification": "400x",
+      "stain": "None"
+    }
   },
-   "image_metadata": {
-    "file_path": "images/hookworm egg.jpg",
-    "magnification": "400x",
-    "stain": "None"
-  },
-  
   {
     "parasite_name": "Giardia lamblia",
     "taxonomy": { "phylum": "Metamonada", "class": "Diplomonadida" },
@@ -70,14 +81,16 @@
       "trophozoite": "Pear-shaped, 2 nuclei, flagella"
     },
     "diagnostic_features": ["Cysts/trophozoites in stool microscopy"],
-    "clinical_relevance": { "disease": "Giardiasis", "symptoms": ["Diarrhea", "Abdominal cramps", "Weight loss"] }
+    "clinical_relevance": {
+      "disease": "Giardiasis",
+      "symptoms": ["Diarrhea", "Abdominal cramps", "Weight loss"]
+    },
+    "image_metadata": {
+      "file_path": "images/Giardia lamblia cyst.jpg",
+      "magnification": "400x",
+      "stain": "None"
+    }
   },
-  "image_metadata": {
-    "file_path": "images/Giardia lamblia cyst.jpg",
-    "magnification": "400x",
-    "stain": "None"
-  },
-  
   {
     "parasite_name": "Entamoeba histolytica",
     "taxonomy": { "phylum": "Amoebozoa", "class": "Archamoebae" },
@@ -91,14 +104,16 @@
       "trophozoite": "Single nucleus, ingested RBCs"
     },
     "diagnostic_features": ["Cysts/trophozoites in stool microscopy"],
-    "clinical_relevance": { "disease": "Amebiasis", "symptoms": ["Bloody diarrhea", "Liver abscess"] }
+    "clinical_relevance": {
+      "disease": "Amebiasis",
+      "symptoms": ["Bloody diarrhea", "Liver abscess"]
+    },
+    "image_metadata": {
+      "file_path": "images/Entamoeba histolytica egg.jpg",
+      "magnification": "400x",
+      "stain": "None"
+    }
   },
-  "image_metadata": {
-    "file_path": "images/Entamoeba histolytica egg.jpg",
-    "magnification": "400x",
-    "stain": "None"
-  },
-  
   {
     "parasite_name": "Plasmodium species (malariae)",
     "taxonomy": { "phylum": "Apicomplexa", "class": "Aconoidasida" },
@@ -113,14 +128,16 @@
       "gametocyte": "Sexual forms"
     },
     "diagnostic_features": ["Blood smear microscopy"],
-    "clinical_relevance": { "disease": "Malaria", "symptoms": ["Fever", "Chills", "Anemia"] }
-  },
+    "clinical_relevance": {
+      "disease": "Malaria",
+      "symptoms": ["Fever", "Chills", "Anemia"]
+    },
     "image_metadata": {
-    "file_path": "images/Plasmodium species (Malaria).jpg",
-    "magnification": "1000x",
-    "stain": "Giemsa"
+      "file_path": "images/Plasmodium species (Malaria).jpg",
+      "magnification": "1000x",
+      "stain": "Giemsa"
+    }
   },
-  
   {
     "parasite_name": "Schistosoma mansoni",
     "taxonomy": { "phylum": "Platyhelminthes", "class": "Trematoda" },
@@ -134,16 +151,18 @@
       "adult": "Male shorter, female longer"
     },
     "diagnostic_features": ["Eggs in stool microscopy"],
-    "clinical_relevance": { "disease": "Schistosomiasis", "symptoms": ["Bloody stool/urine", "Hepatosplenomegaly"] }
+    "clinical_relevance": {
+      "disease": "Schistosomiasis",
+      "symptoms": ["Bloody stool/urine", "Hepatosplenomegaly"]
+    },
+    "image_metadata": {
+      "file_path": "images/Schistosoma mansoni egg.jpg",
+      "magnification": "400x",
+      "stain": "None"
+    }
   },
-   "image_metadata": {
-    "file_path": "images/Schistosoma mansoni egg.jpg",
-    "magnification": "400x",
-    "stain": "None"
-  },
-  
   {
-    "parasite_name": "Taenia species saginata",
+    "parasite_name": "Taenia saginata",
     "taxonomy": { "phylum": "Platyhelminthes", "class": "Cestoda" },
     "life_cycle": {
       "infective_stage": "Cysticercus (larva)",
@@ -154,13 +173,15 @@
       "egg": "Round, thick shell",
       "adult": "Flat, segmented worm with scolex"
     },
-      "image_metadata": {
-    "file_path": "images/Taenia saginata egg.jpg",
-    "magnification": "400x",
-    "stain": "None"
-  },
-       
     "diagnostic_features": ["Proglottids/eggs in stool microscopy"],
-    "clinical_relevance": { "disease": "Taeniasis", "symptoms": ["Abdominal discomfort", "Neurocysticercosis (T. solium)"] }
+    "clinical_relevance": {
+      "disease": "Taeniasis",
+      "symptoms": ["Abdominal discomfort", "Neurocysticercosis (T. solium)"]
+    },
+    "image_metadata": {
+      "file_path": "images/Taenia saginata egg.jpg",
+      "magnification": "400x",
+      "stain": "None"
+    }
   }
 ]
