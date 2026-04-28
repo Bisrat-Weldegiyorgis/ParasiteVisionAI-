@@ -13,7 +13,7 @@
     },
     "diagnostic_features": ["Eggs in stool microscopy", "Adult worms expelled"],
       "image_metadata": {
-      "file_path": "images/Ascaris egg.jpg",
+      "file_path": "images/Ascaris_egg.jpg",
       "magnification": "400x",
       "stain": "None"
     },
