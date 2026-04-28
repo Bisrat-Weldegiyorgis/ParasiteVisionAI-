@@ -12,14 +12,14 @@
       "adult": "Large cylindrical worm, females longer than males"
     },
     "diagnostic_features": ["Eggs in stool microscopy", "Adult worms expelled"],
-    "clinical_relevance": {
-      "disease": "Ascariasis",
-      "symptoms": ["Abdominal pain", "Malnutrition", "Intestinal obstruction"]
-    },
-    "image_metadata": {
+      "image_metadata": {
       "file_path": "images/Ascaris egg.jpg",
       "magnification": "400x",
       "stain": "None"
+    },
+    "clinical_relevance": {
+      "disease": "Ascariasis",
+      "symptoms": ["Abdominal pain", "Malnutrition", "Intestinal obstruction"]
     }
   },
   {
