@@ -6,9 +6,10 @@ An AI-powered image classification system that detects and classifies different 
 
 ## 🚀 Project Overview
 
-Parasite Vision AI is a machine learning project designed to help identify common parasitic organisms from images. The model is trained using a convolutional neural network (ResNet18) and can predict the parasite type along with a confidence score.
+Parasite Vision AI is a machine learning project designed to help identify common parasitic organisms from images.  
+The model is trained using a convolutional neural network (**ResNet18**) and can predict the parasite type along with a confidence score.
 
-The system includes:
+### System Includes:
 - 🧠 Deep learning model (ResNet18)
 - 📸 Image classification pipeline
 - 🌐 Web app interface using Streamlit
@@ -20,7 +21,6 @@ The system includes:
 ## 🦠 Supported Parasites
 
 The model can classify:
-
 - Ascaris egg  
 - Hookworm egg  
 - Trichuris egg  
@@ -29,3 +29,37 @@ The model can classify:
 - Giardia lamblia cyst  
 - Entamoeba histolytica egg  
 - Plasmodium species (Malaria)
+
+---
+
+## 📂 Project Structure
+ParasiteVisionAI/
+│── data/              # Raw and processed images
+│── notebooks/         # Training and evaluation notebooks
+│── app.py             # Streamlit web interface
+│── models/            # Saved model weights
+│── requirements.txt   # Dependencies
+│── README.md          # Project documentation
+
+---
+
+## ⚙️ Installation
+```bash
+git clone https://github.com/yourusername/ParasiteVisionAI.git
+cd ParasiteVisionAI
+pip install -r requirements.txt
+▶️ Usage
+Place parasite images in the data/ folder.
+
+Run preprocessing scripts to prepare datasets.
+
+Train and evaluate models in notebooks/.
+
+Launch the Streamlit app:
+
+bash
+streamlit run app.py
+📊 Example Output
+Input: Microscopic image of parasite egg
+
+Output: Predicted parasite type + confidence score
