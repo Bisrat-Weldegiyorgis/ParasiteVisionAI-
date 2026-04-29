@@ -1,10 +1,31 @@
-ParasiteVisionAI
-Overview
-AI system for detecting parasites in microscope images. Uses deep learning and explainable AI to classify species and provide diagnostic notes.
+# 🧬 Parasite Vision AI
 
-Features
-Image preprocessing with OpenCV
+An AI-powered image classification system that detects and classifies different parasite types from microscopic images using deep learning (PyTorch) and a web interface built with Streamlit.
 
-Parasite classification using CNNs (PyTorch/TensorFlow)
+---
 
-Explainable outputs with Grad-CAM
+## 🚀 Project Overview
+
+Parasite Vision AI is a machine learning project designed to help identify common parasitic organisms from images. The model is trained using a convolutional neural network (ResNet18) and can predict the parasite type along with a confidence score.
+
+The system includes:
+- 🧠 Deep learning model (ResNet18)
+- 📸 Image classification pipeline
+- 🌐 Web app interface using Streamlit
+- 📊 Confidence score prediction
+- 🔮 Real-time image testing
+
+---
+
+## 🦠 Supported Parasites
+
+The model can classify:
+
+- Ascaris egg  
+- Hookworm egg  
+- Trichuris egg  
+- Taenia saginata egg  
+- Schistosoma mansoni egg  
+- Giardia lamblia cyst  
+- Entamoeba histolytica egg  
+- Plasmodium species (Malaria)
