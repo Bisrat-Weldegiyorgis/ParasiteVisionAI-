@@ -17,7 +17,7 @@ transform = transforms.Compose([
 ])
 
 # Load dataset
-dataset = ParasiteDataset("data/parasites.json", transform=transform)
+dataset = ParasiteDataset("parasites.json", transform=transform)
 
 # Train/val split
 train_size = int(0.8 * len(dataset))
