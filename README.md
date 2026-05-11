@@ -35,12 +35,15 @@ git clone https://github.com/your-username/ParasiteVisionAI-.git
 cd ParasiteVisionAI-
 ``` 
 
-👨‍💻 Developed by
+## 👨‍💻 Developed by
 
-Bisrat Weldegiyorgis
-check this out: https://parasitevisionai.streamlit.app/
+### Bisrat Weldegiyorgis
 
-📜 License
+🔗 Check out the live app: https://parasitevisionai.streamlit.app/
+
+---
+
+## 📜 License
 
 This project is for educational and research purposes only.
 
