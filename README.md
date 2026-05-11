@@ -28,10 +28,19 @@ ParasiteVisionAI-/
 
 ## ⚙️ Installation
 
-### 1. Clone the repository
-```bash
+```
+# 1. Clone the repository
 git clone https://github.com/your-username/ParasiteVisionAI-.git
+
+# 2. Move into the project folder
 cd ParasiteVisionAI-
+
+# 3. Install dependencies
+pip install -r requirements.txt
+
+# 4. Run the app
+streamlit run app.py
+
 ``` 
 
 ## 👨‍💻 Developed by
