@@ -33,6 +33,7 @@ ParasiteVisionAI-/
 ```bash
 git clone https://github.com/your-username/ParasiteVisionAI-.git
 cd ParasiteVisionAI-
+``` 
 
 👨‍💻 Developed by
 
