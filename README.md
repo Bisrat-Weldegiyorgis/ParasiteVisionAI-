@@ -34,6 +34,7 @@ ParasiteVisionAI-/
 git clone https://github.com/your-username/ParasiteVisionAI-.git
 cd ParasiteVisionAI-
 
+
 🧠 Model Information
 Framework: PyTorch
 Input: Medical image (parasite sample)
