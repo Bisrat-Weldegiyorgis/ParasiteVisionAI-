@@ -16,13 +16,12 @@ ParasiteVisionAI is a deep learning-based web application for detecting parasite
 
 ## 📁 Project Structure
 ParasiteVisionAI-/
-│
-├── app.py # Streamlit web application
-├── model.py # Model loading and inference logic
-├── dataset.py # Dataset class and preprocessing (training only)
-├── parasite_model.pth # Trained PyTorch model
-├── requirements.txt # Project dependencies
-└── README.md # Project documentation
+ - app.py # Streamlit web applicatio
+ -  model.py # Model loading and inference logic
+ -  dataset.py # Dataset class and preprocessing (training only)
+ -  parasite_model.pth # Trained PyTorch model
+ -  requirements.txt # Project dependencies
+ -  README.md 
 
 
 ---
